@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         Clearweb Github
+@description  Clearweb theme for Github
+@namespace    dnrk.clearweb.github
+@version      0.1.0
+@author       dennorak (https://github.com/dennorak)
+@license      unlicense
+@preprocessor stylus
+==/UserStyle== */
+@-moz-document domain("github.com") {
+
+    :root {
+        --bgColor-default: transparent !important;
+        --bgColor-muted: #0007 !important;
+    }
+
+}

@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name         Clearweb YouTube
+@description  Clearweb theme for YouTube
+@namespace    dnrk.clearweb.youtube
+@version      0.1.0
+@author       dennorak (https://github.com/dennorak)
+@license      unlicense
+@preprocessor stylus
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+
+    * {
+        --yt-spec-base-background: transparent;
+    }
+
+    /* search input, fullscreen bars */
+    .ytSearchboxComponentInputBoxDark,
+    #full-bleed-container {
+        background-color: transparent !important;
+    }
+
+    /* preload */
+    ytd-masthead.shell.dark,
+    #home-container-skeleton,
+    #home-chips,
+    #guide-skeleton {
+        background-color: transparent !important;
+    }
+
+    /* round video player */
+    .video-stream {
+        border-radius: 10px;
+    }
+
+}

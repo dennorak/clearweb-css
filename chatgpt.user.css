@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Clearweb ChatGPT
 @description  Clearweb theme for ChatGPT
-@namespace    dnrk.clearweb.blogspot
+@namespace    dnrk.clearweb.chatgpt
 @version      0.1.0
 @author       dennorak (https://github.com/dennorak)
 @license      unlicense
@@ -9,13 +9,13 @@
 ==/UserStyle== */
 @-moz-document domain("chatgpt.com") {
 
-:root {
-    --main-surface-primary: transparent;
-}
+    :root {
+        --main-surface-primary: transparent;
+    }
 
-#composer-background {
-    background-color: transparent !important;
-    box-shadow: 3px 3px #0007;
-}
+    #composer-background {
+        background-color: transparent !important;
+        box-shadow: 3px 3px #0007;
+    }
 
 }

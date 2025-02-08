@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name         Clearweb DuckDuckGo
+@description  Clearweb theme for DuckDuckGo
+@namespace    dnrk.clearweb.ddg
+@version      0.1.0
+@author       dennorak (https://github.com/dennorak)
+@license      unlicense
+@preprocessor stylus
+==/UserStyle== */
+@-moz-document domain("duckduckgo.com") {
+
+    :root {
+        --theme-col-bg-card: transparent !important;
+        --theme-col-bg-expandcollapse: transparent !important;
+    }
+
+    .header-wrap,
+    .site-wrapper,
+    body,
+    .search--header,
+    .related-searches__item,
+    .footer {
+        background-color: transparent !important;
+    }
+
+    /* remove fades */
+    ::before {
+        display: none;
+    }
+
+}
