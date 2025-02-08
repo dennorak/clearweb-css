@@ -1,1 +1,15 @@
+/* ==UserStyle==
+@name         Clearweb Google
+@description  Clearweb theme for Google
+@namespace    dnrk.clearweb.google
+@version      0.1.0
+@author       dennorak (https://github.com/dennorak)
+@license      unlicense
+@preprocessor stylus
+==/UserStyle== */
+@-moz-document domain("google.com") {
+    body {
+        background-color: transparent;
 
+    }
+}
