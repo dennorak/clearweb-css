@@ -10,12 +10,11 @@
 @-moz-document domain("chatgpt.com") {
 
     :root {
-        --main-surface-primary: transparent;
-    }
-
-    #composer-background {
-        background-color: transparent !important;
-        box-shadow: 3px 3px #0007;
+        --bg-primary: transparent;
+        --token-bg-primary: transparent;
+        --main-surface-primary: #0007;
+        --sidebar-surface-primary: #0007;
+        --message-surface: #0007;
     }
 
 }
